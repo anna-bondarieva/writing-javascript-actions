@@ -13,7 +13,7 @@ const options = {
 
 async function getJoke() {
     const res = await request(options);
-    return res.joke;
+    return res.id;
 }
 
 module.exports = getJoke;
